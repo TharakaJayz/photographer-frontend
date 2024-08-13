@@ -25,7 +25,7 @@ const PortfolioSingle = (props: Props) => {
         // setIsLoading(true);
         try {
 
-            const singleAlbum = await axios.get(`${process.env.REACT_APP_BASE_URL || 'http://localhost:8080'}/album/get_single_album/${albumId}`)
+            const singleAlbum = await axios.get(`${process.env.REACT_APP_BASE_URL}/album/get_single_album/${albumId}`)
 
             setHeaderImage(singleAlbum.data.albumHeaderImg);
             const data: any = singleAlbum.data.images;

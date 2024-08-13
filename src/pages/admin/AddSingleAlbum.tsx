@@ -76,7 +76,7 @@ const AddSingleAlbum = (props: Props) => {
 
     try {
 
-      const albumResponse = await axios.post(`${process.env.REACT_APP_BASE_URL||'http://localhost:8080'}/album/create_album`,
+      const albumResponse = await axios.post(`${process.env.REACT_APP_BASE_URL}/album/create_album`,
         { ...album, "albumType": albumType, "boyName": boyName, "girlName": girlName, "images": albumImages }
       );
 

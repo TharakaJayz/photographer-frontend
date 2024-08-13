@@ -26,7 +26,7 @@ const AddHomeImages = (props: Props) => {
 
     try {
 
-      const imageUploadResponse = await axios.post(`${process.env.REACT_APP_BASE_URL || 'http://localhost:8080'}/home/create_home_slider`,{
+      const imageUploadResponse = await axios.post(`${process.env.REACT_APP_BASE_URL}/home/create_home_slider`,{
         images:[...imageArray]
       })
 

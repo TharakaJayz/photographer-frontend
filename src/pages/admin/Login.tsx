@@ -31,7 +31,7 @@ const Login = (props: Props) => {
     //   console.log("This is submitted data",data)
       try {
 
-        const loginResponse = await axios.post(`${process.env.REACT_APP_BASE_URL || 'http://localhost:8080'}/auth/login`,{
+        const loginResponse = await axios.post(`${process.env.REACT_APP_BASE_URL}/auth/login`,{
             ...data
           
         });

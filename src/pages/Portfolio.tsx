@@ -29,7 +29,7 @@ const Portfolio = (props: Props) => {
     try {
 
 
-      const albums: any = await axios.get(`${process.env.REACT_APP_BASE_UR ||'http://localhost:8080'}/album/get_all_album`);
+      const albums: any = await axios.get(`${process.env.REACT_APP_BASE_URL}/album/get_all_album`);
       // console.log("albums",albums)
       setAlbums(albums.data);
 
