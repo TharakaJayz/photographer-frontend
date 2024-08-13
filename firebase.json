@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "build",
+    "site": "amelia-weddingphotographer",
     "ignore": [
       "firebase.json",
       "**/.*",

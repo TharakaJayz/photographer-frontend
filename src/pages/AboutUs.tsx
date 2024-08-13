@@ -7,7 +7,7 @@ interface Props {}
 const AboutUs = (props: Props) => {
   return (
     <Wrapper >
-      <HeaderSection imgUrl={''} title="About Us" desc="Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc" TextLogic = {true} />
+      <HeaderSection imgUrl={'https://lh3.googleusercontent.com/pw/AP1GczM1wSvEU2YORbilT20YrcpjMztxOsECcpS4cj-ymsCgyqCdnH58BG5E1I-W_TlOentZAaXn_ip5k0_owhk7FRNOkzsHKVB6ifVutLRsirvTQaw7IM6uqVRTi60mwueQvTvaJmOUMbWnHg1-OY2XOvuN=w1369-h913-s-no-gm?authuser=0'} title="About Us" desc="Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc" TextLogic = {true} />
       <div className="w-full px-vw5 ">
         
         <div className="w-full h-vh100 bg-primary flex  gap-vw2 px-vw5 py-vh5 sm_:px-1 rounded-md xl2_:bg-white xl2_:flex-col-reverse xl2_:h-auto ">
@@ -23,7 +23,7 @@ const AboutUs = (props: Props) => {
           </section> */}
           <section className="w-auto h-full  flex items-center justify-center"> 
           
-            <img src="https://lh3.googleusercontent.com/pw/AP1GczNRBi5zuaiFpwEKUk_QpIHLK7QdzW-WlvE3FOmzbaetFd67AwWhqUHsTiigsRmVI4D1MiELutk5_aD9gcxHW0CEpZ18hCA1rcw6WAih22jhc_CC1XJMtTsErywNeXiIi3vg8OIwS2AN2w9LigbL8RqGEp2NqFduVlLYJi-UNTzkCxWon9hgkXSrB0VDFHwos1b22z6-x_SkE3qdYgW5fS-zsLlyGQJJyK3SYGeBCOT0bX6J3a8fvM0qdX1e8AewOtcpmOjvNGJJiJPpbWNZUoIciuGpuVhns4tISguy5znTrs44sxncyI6_21Nx23yjl1WDT3FRyIGhAoVOtKwUcxxo-4HIf1yYPEER0SQxt-BEIZfwymdiw-YUnrb7HtZftlHXq4mk3RXPllgpqnMgeG58HzqDRaxCFxPoXgpgkQhzNTEHIOvv9nfYOihuN7erz_HrnE6GKfCd6gHlB0Bs0OQ7QgCgQAi6hm7dFtUthmlOwOmVTnfnYLv9bS_Ijfh1ydQ54Le4mv-nW9_AZDaAicvlMF5Ss-rjSNMKXPe1V1H4JK15lfau294nEVGtcZei3P1cdw5Sv_Yuopp-gzUqTqsr01jljiLRoU_xccdgkhhy-ce2yH51l8j6qktHNFcTj-xmkNtkWy6OgModLiK3WYg16CX8UTwxx0PnFzCgT-9nMHysansvIaFiPTpezDChwy_w_OYSh2daMeb0Af7sX_xkhyaqBC9FJSP4KHLKtfPJBp4URWdxn9DlXg-MZc5eQHQw8MUDnrllgpRGq2B4zKvlcESCCoTFL4LC9gecsLkLlRJS4he1uUmofhvti-EQZCKN2TM_wNIY4AerrI7cfPhHevGL3sRYqsgSeGet4KhfGU4ZA5qyffEN1P_zu77yXU6Zj0EpFYIprxyYAADhRIRsUYt1_eBhaAmQ8ipkkcHcUdGVBRUpH69NxA0=w609-h913-s-no-gm?authuser=0"  alt="jsyz" className="max-h-full xl3_:opacity-0 about_animation  xl2_:w-full  bg-red-400 " />
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczMSVRmmCP_fQu2vfUol6DJjFLhN7LecUALQpRFMY036M-tx2KB9KRO07S0EGsaIKMxUa1j92ouWq5IP06Faj14Ae-VD6uqR83DGwrPEtE06Ivgir-h320OQS_m7x-DHFc9wEpjJAHH-nrl97KUjMgq3=w609-h913-s-no-gm?authuser=0"  alt="jsyz" className="max-h-full xl3_:opacity-0 about_animation  xl2_:w-full  bg-red-400 " />
           </section>
           <section className="w-p50 xl2_:w-full   text-white flex flex-col justify-start items-center gap-vh3 xl2_:bg-primary xl2_:px-vw5 xl2_:py-vh12 xl2_:rounded-xl">
             

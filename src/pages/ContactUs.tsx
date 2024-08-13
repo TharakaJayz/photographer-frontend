@@ -25,7 +25,7 @@ const ContactUs = (props: Props) => {
 
     return (
         <Wrapper >
-          <HeaderSection imgUrl={''} title="Contact Us" desc="Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc " TextLogic = {true} />
+          <HeaderSection imgUrl={'https://lh3.googleusercontent.com/pw/AP1GczM5-dczeJADfFIuWcVDDZJc1RGrAIV1QxIf46kD1vytWPTkflFvmOSiLSTDMGB-UdJpzhjVnnBBDc4jPAlGASGoLLWU-Uc2LapUUyxqGg7kCkDqL09VgV1yI_pGNEb1fAQlP6Jlyt1E10cqlztgwrEa=w1369-h913-s-no-gm?authuser=0'} title="Contact Us" desc="Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc " TextLogic = {true} />
           <div className='w-full px-vw5 '>
             <section className='w-full flex items-center justify-center '>
               {/* <div className='w-p60 bg-green-500 flex flex-col gap-vh2 px-vw5 text-white'>
