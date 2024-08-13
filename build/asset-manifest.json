@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cbf2f252.css",
-    "main.js": "/static/js/main.a5bd4758.js",
+    "main.css": "/static/css/main.bc7b67b4.css",
+    "main.js": "/static/js/main.1d8fda75.js",
     "static/js/453.419a5d54.chunk.js": "/static/js/453.419a5d54.chunk.js",
     "static/media/img_7.jpg": "/static/media/img_7.d66e116f09dc8afcf995.jpg",
     "static/media/img_6.jpg": "/static/media/img_6.14fd6131491c53512a46.jpg",
@@ -24,12 +24,12 @@
     "static/media/amelia_logo.png": "/static/media/amelia_logo.2caa3ebee5b402e4e98e.png",
     "static/media/PR3.jpg": "/static/media/PR3.9f8ac706ab6e274e4786.jpg",
     "index.html": "/index.html",
-    "main.cbf2f252.css.map": "/static/css/main.cbf2f252.css.map",
-    "main.a5bd4758.js.map": "/static/js/main.a5bd4758.js.map",
+    "main.bc7b67b4.css.map": "/static/css/main.bc7b67b4.css.map",
+    "main.1d8fda75.js.map": "/static/js/main.1d8fda75.js.map",
     "453.419a5d54.chunk.js.map": "/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbf2f252.css",
-    "static/js/main.a5bd4758.js"
+    "static/css/main.bc7b67b4.css",
+    "static/js/main.1d8fda75.js"
   ]
 }
