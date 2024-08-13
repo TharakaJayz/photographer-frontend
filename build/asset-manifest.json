@@ -1,35 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc7b67b4.css",
-    "main.js": "/static/js/main.1d8fda75.js",
+    "main.css": "/static/css/main.f14aa888.css",
+    "main.js": "/static/js/main.912daa81.js",
     "static/js/453.419a5d54.chunk.js": "/static/js/453.419a5d54.chunk.js",
-    "static/media/img_7.jpg": "/static/media/img_7.d66e116f09dc8afcf995.jpg",
-    "static/media/img_6.jpg": "/static/media/img_6.14fd6131491c53512a46.jpg",
-    "static/media/LS1.jpg": "/static/media/LS1.84530dcbabf89907d178.jpg",
-    "static/media/img_9.jpg": "/static/media/img_9.60f82bed29ba3b503793.jpg",
-    "static/media/img_3.jpg": "/static/media/img_3.3aabe088e345a829cf56.jpg",
-    "static/media/img_2.jpg": "/static/media/img_2.dd565de5ee2ce75056b0.jpg",
-    "static/media/LS4.jpg": "/static/media/LS4.fa9ecb71b7d447e8ced9.jpg",
-    "static/media/PR4.jpg": "/static/media/PR4.3aeb347af98c5ed95f14.jpg",
-    "static/media/LS2.jpg": "/static/media/LS2.7de82ea3615e662bf73e.jpg",
-    "static/media/img_4.jpg": "/static/media/img_4.0bea3f0efaa449d0bf3d.jpg",
-    "static/media/PR1.jpg": "/static/media/PR1.19ae317f1afe9f77f75b.jpg",
-    "static/media/img_5.jpg": "/static/media/img_5.f3eec3eef324f09d63dd.jpg",
-    "static/media/PR2.jpg": "/static/media/PR2.71835a8fbbfce7f66955.jpg",
-    "static/media/img_8.jpg": "/static/media/img_8.1c4e175c19c558d607d8.jpg",
-    "static/media/LS3.jpg": "/static/media/LS3.c81c73d2335b49d13269.jpg",
-    "static/media/img_10.jpg": "/static/media/img_10.5c7328ef0effd151a7b4.jpg",
-    "static/media/img_11.jpg": "/static/media/img_11.efb22ab3d37d4391297a.jpg",
-    "static/media/img_1.jpg": "/static/media/img_1.93397e594761496b7540.jpg",
     "static/media/amelia_logo.png": "/static/media/amelia_logo.2caa3ebee5b402e4e98e.png",
-    "static/media/PR3.jpg": "/static/media/PR3.9f8ac706ab6e274e4786.jpg",
     "index.html": "/index.html",
-    "main.bc7b67b4.css.map": "/static/css/main.bc7b67b4.css.map",
-    "main.1d8fda75.js.map": "/static/js/main.1d8fda75.js.map",
+    "main.f14aa888.css.map": "/static/css/main.f14aa888.css.map",
+    "main.912daa81.js.map": "/static/js/main.912daa81.js.map",
     "453.419a5d54.chunk.js.map": "/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc7b67b4.css",
-    "static/js/main.1d8fda75.js"
+    "static/css/main.f14aa888.css",
+    "static/js/main.912daa81.js"
   ]
 }

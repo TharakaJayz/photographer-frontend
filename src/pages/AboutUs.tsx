@@ -1,5 +1,5 @@
 import HeaderSection from "../components/HeaderSection";
-import { images } from "../assets/Images";
+
 import { Wrapper } from "../components/Wrapper";
 
 interface Props {}
@@ -7,7 +7,7 @@ interface Props {}
 const AboutUs = (props: Props) => {
   return (
     <Wrapper >
-      <HeaderSection imgUrl={images[1]} title="About Us" desc="Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc" TextLogic = {true} />
+      <HeaderSection imgUrl={''} title="About Us" desc="Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc" TextLogic = {true} />
       <div className="w-full px-vw5 ">
         
         <div className="w-full h-vh100 bg-primary flex  gap-vw2 px-vw5 py-vh5 sm_:px-1 rounded-md xl2_:bg-white xl2_:flex-col-reverse xl2_:h-auto ">
