@@ -1,7 +1,6 @@
 import React from 'react'
 import HeaderSection from '../components/HeaderSection'
 import { images } from '../assets/Images';
-import { FaPhone } from "react-icons/fa6";
 import { useForm } from 'react-hook-form';
 import { Wrapper } from '../components/Wrapper';
 interface Props {

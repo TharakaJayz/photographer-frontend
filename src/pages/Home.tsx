@@ -39,11 +39,9 @@ useEffect(() => {
     return (
         <div className='w-full flex flex-col'>
              <ImageSlider   images={images} loading = {isLoading} /> 
-            
              <HomeMemory  />
              <HomeService />
-             {/* <HomeSwiper/> */}
-             {/* <HomeReview /> */}
+          
         </div>
     )
 }

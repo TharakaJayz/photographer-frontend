@@ -1,6 +1,6 @@
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
-import Logo from "./Logo";
+
 
 type props = {
   extraStyle: any;

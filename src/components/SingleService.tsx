@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { GiBigDiamondRing } from "react-icons/gi";
 import { serviceType } from "./home/HomeService";
 
-interface Props {}
+
 
 const SingleService = (props: serviceType) => {
   const [hasAnimated, setHasAnimated] = useState(false);
@@ -12,7 +11,7 @@ const SingleService = (props: serviceType) => {
 
     if (element && !hasAnimated ) {
       element.addEventListener("animationend", () => {
-        console.log("executing===================");
+    
         setHasAnimated(true);
       });
 
@@ -24,7 +23,7 @@ const SingleService = (props: serviceType) => {
     return () => {
       if (element) {
         element.removeEventListener("animationend", () => {
-          console.log("executing=================== 2");
+         
           
         });
       }

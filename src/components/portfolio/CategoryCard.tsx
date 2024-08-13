@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { GiBigDiamondRing } from "react-icons/gi";
 interface Props {
     svg: any,

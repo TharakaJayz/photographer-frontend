@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
 import HeaderSection from '../components/HeaderSection'
 import CategoryCard from '../components/portfolio/CategoryCard'
-import { images } from '../assets/Images'
 import { albumTypes } from '../assets/details';
 import PortfolioCard from '../components/portfolio/PortfolioCard';
-import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import axios from 'axios';
 import { Wrapper } from '../components/Wrapper';

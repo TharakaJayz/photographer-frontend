@@ -1,4 +1,4 @@
-import React from 'react'
+
 import SingleService from '../SingleService'
 import { GiShutRose } from "react-icons/gi";
 import { GiLovers } from "react-icons/gi";

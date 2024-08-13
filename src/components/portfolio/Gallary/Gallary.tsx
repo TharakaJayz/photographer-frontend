@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "./Gallary.css"
 type Props = {
     images: Array<string>

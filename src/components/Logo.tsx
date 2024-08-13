@@ -1,4 +1,4 @@
-import React from 'react'
+
 import amlilaLogo from "../assets/amelia_logo.png";
 
 const Logo = () => {
