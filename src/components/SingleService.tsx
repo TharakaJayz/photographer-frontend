@@ -28,7 +28,7 @@ const SingleService = (props: serviceType) => {
         });
       }
     };
-  }, []);
+  }, [hasAnimated]);
 
   return (
     <div

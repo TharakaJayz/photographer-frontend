@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.f14aa888.css",
-    "main.js": "/static/js/main.912daa81.js",
+    "main.js": "/static/js/main.2df11aec.js",
     "static/js/453.419a5d54.chunk.js": "/static/js/453.419a5d54.chunk.js",
     "static/media/amelia_logo.png": "/static/media/amelia_logo.2caa3ebee5b402e4e98e.png",
     "index.html": "/index.html",
     "main.f14aa888.css.map": "/static/css/main.f14aa888.css.map",
-    "main.912daa81.js.map": "/static/js/main.912daa81.js.map",
+    "main.2df11aec.js.map": "/static/js/main.2df11aec.js.map",
     "453.419a5d54.chunk.js.map": "/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f14aa888.css",
-    "static/js/main.912daa81.js"
+    "static/js/main.2df11aec.js"
   ]
 }

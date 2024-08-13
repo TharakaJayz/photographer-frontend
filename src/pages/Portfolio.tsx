@@ -83,6 +83,7 @@ const Portfolio = (props: Props) => {
 
                     return <PortfolioCard title={singleAlbum.type} desc={singleAlbum.desc} imgUrl={singleAlbum.imgUrl} id={singleAlbum.id} />
                   }
+                  return null
                 }))}
 
               </section>
