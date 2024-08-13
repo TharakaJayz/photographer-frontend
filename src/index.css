@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header_image {
+
+  -webkit-mask-image: linear-gradient(to top, transparent, black 15%);
+  mask-image: linear-gradient(to top, transparent, black 15%);
+  mask-size: 100% 100%;
+  mask-position: bottom;
+  mask-repeat: no-repeat;
+  
+}
+
