@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 import HeaderSection from "../components/HeaderSection";
 
@@ -63,7 +63,7 @@ const PortfolioSingle = (props: Props) => {
     };
 
     fetchData();
-  }, [getAlbum]);
+  }, );
 
   const [loginError, setLoginError] = useState<string>("");
 
@@ -82,7 +82,7 @@ const PortfolioSingle = (props: Props) => {
           desc="Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc"
           TextLogic={false}
         />
-        <div className="w-full px-vw5 bg">
+        <div className="w-full px-vw5">
           {album.length > 0 && <Gallary images={album} />}
 
           {loginError !== "" && (

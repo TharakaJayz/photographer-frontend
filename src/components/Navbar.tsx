@@ -58,7 +58,7 @@ const onClickHandler = ()  =>{
                     <NavLink className={({ isActive }) =>
                         isActive ? "text-primary font-semibold lg_:w-full lg_:text-left lg_:text-white lg_:bg-primary  lg_:pl-vw5 lg_:py-vh1  " : "text-white lg_:w-full lg_:text-left lg_:pl-vw5 lg_:py-vh1  "
                     } to="/contact" onClick={onClickHandler}>Contact Us</NavLink>
-                    <button className='bg-transparent border border-white text-white font-semibold px-vw1 sm_:px-vw3 lg_:px-vw2 py-vh1 rounded  transition-all cursor-pointer hover:bg-primary hover:border-primary ml-vw5' onClick={()=>{navigation("/quote")}}  >Request a Quote</button>
+                    <button className='bg-transparent border border-white text-white font-semibold px-vw1 sm_:px-vw3 lg_:px-vw2 py-vh1 rounded  transition-all cursor-pointer hover:bg-primary hover:border-primary ml-vw5' onClick={()=>{navigation("/admin")}}  >Request a Quote</button>
                 </section>
                 
                 
