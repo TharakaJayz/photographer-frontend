@@ -1,4 +1,4 @@
-import React from "react";
+
 import ServiceImages from "./ServiceImages";
 
 interface Props {}
