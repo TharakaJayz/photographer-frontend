@@ -1,7 +1,7 @@
 
 import ImageSlider from '../components/home/ImageSlider'
 import HomeMemory from '../components/home/HomeMemory'
-import HomeService from '../components/home/HomeService'
+
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Service from '../components/home/service/Service'
