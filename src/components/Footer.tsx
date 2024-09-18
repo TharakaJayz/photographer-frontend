@@ -7,6 +7,13 @@ type props = {
 };
 
 const Footer = (props: props) => {
+  const emailAddress = "ameliaweddingstudio@gmail.com";
+  const subject = "test subject";
+  const body = "test bodyy";
+
+  const emailLink = `mailto:${emailAddress}?
+  subject=${subject}&body=${body}`;
+
   return (
     <div
       className={`flex items-center justify-center w-full mt-vh5 text-white ${props.extraStyle} bg-navcolor  `}
@@ -26,11 +33,11 @@ const Footer = (props: props) => {
         </div>
 
         <div className="flex flex-col gap-vh1">
-          <p className="w-full text-right">ameliaweddingstudio@gmail.com</p>
+          <a className="w-full text-right" href={emailLink}>ameliaweddingstudio@gmail.com</a>
           <p className="w-full text-right capitalize">
             207/1,Rathmaldeniya Road, Pannipitiya, Sri Lanka, 10230
           </p>
-          <p className="w-full text-right">+94718736614</p>
+          <p className="w-full text-right">+94718736668</p>
         </div>
         
         {/* <div className=" flex flex-col gap-vh2 py-vh5 justify-center items-center">

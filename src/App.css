@@ -45,6 +45,20 @@
     animation-iteration-count: 1 !important;
 }
 
+
+.service_slider {
+    display: none !important;
+   
+}
+
+@media (max-width:920px){
+    .service_slider {
+        display: flex !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
 @keyframes fade-in {
     
     to {scale:1 ;opacity: 1;}
@@ -96,4 +110,9 @@
     }
 }
 
+}
+
+
+.singleImagePageH2{
+    z-index: 200 !;
 }

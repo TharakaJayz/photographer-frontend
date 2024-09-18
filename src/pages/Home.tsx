@@ -4,6 +4,7 @@ import HomeMemory from '../components/home/HomeMemory'
 import HomeService from '../components/home/HomeService'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
+import Service from '../components/home/service/Service'
 
 
 
@@ -40,7 +41,8 @@ useEffect(() => {
         <div className='w-full flex flex-col'>
              <ImageSlider   images={images} loading = {isLoading} /> 
              <HomeMemory  />
-             <HomeService />
+             <Service  />
+             {/* <HomeService /> */}
           
         </div>
     )
